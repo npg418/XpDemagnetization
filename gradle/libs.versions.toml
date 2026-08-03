@@ -1,0 +1,22 @@
+[versions]
+minecraft-exact = "1.21.1"
+minecraft-range = "[1.21.1,1.22)"
+neoforge-exact = "21.1.248"
+neoforge-range = "[21,)"
+parchment-minecraft = "1.21.1"
+parchemnt-mappings = "2024.11.17"
+
+moddev = "2.0.143"
+
+simplemagnets-id = "6316527" # 1.1.12c
+simplemagnets-range = "[1.1.11a,)"
+supermartijn642-core = "8526794" # 1.1.22
+supermartijn642-config = "5546996" # 1.1.8
+
+[plugins]
+moddev = { id = "net.neoforged.moddev", version.ref = "moddev" }
+
+[libraries]
+simplemagnets = { group = "curse.maven", name = "simple-magnets-394140", version.ref = "simplemagnets-id" }
+supermartijn642-core = {group = "curse.maven", name = "supermartijn642s-core-lib-454372", version.ref = "supermartijn642-core"}
+supermartijn642-config = {group = "curse.maven", name = "supermartijn642s-config-lib-438332", version.ref = "supermartijn642-config"}
