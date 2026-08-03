@@ -4,6 +4,8 @@
   "package": "com.npg418.xpdemagnetization.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "DemagnetizationCoilBlockEntityMixin",
+    "MagnetItemMixin"
   ],
   "client": [
   ],
